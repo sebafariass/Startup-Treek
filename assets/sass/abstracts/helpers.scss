@@ -1,0 +1,69 @@
+
+//SECCION heroSec
+
+
+    
+@media (min-width:724px) { 
+    .heroSec__wrap{
+        position: absolute;
+       top: 150px;
+        left: 100px;
+        width: 500px;
+        
+      
+      
+     }
+ .heroSec__wrap{
+    padding: 0px 50px;
+    ;
+ }
+
+ 
+    }
+    @media (max-width:728px) {
+        .heroSec__wrap {
+            h1 {
+                text-align: center;
+
+            }
+           
+           
+        }
+     }
+
+
+ //Caracteristicas 
+
+ 
+ @media (min-width:724px) {
+     .caracteristicas {
+         width: 80%;
+         padding: 20px;
+         margin: auto;
+         display: flex;
+         justify-content: center;
+     }
+    
+    #Caracteristicas div {
+         text-align: center;
+         width: 100%;
+     }
+ 
+ }
+
+ @media (max-width:724px) {
+    .caracteristicas__niveles {
+        text-align: center;
+        width: 100%;
+        
+    }
+    .caracteristicas__texto {
+        text-align: center;
+        
+        
+    }
+   
+ }
+ 
+
+ 
