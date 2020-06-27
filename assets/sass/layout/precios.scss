@@ -1,8 +1,30 @@
-#precios {
-    background-image: url(../img/bg-price.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
+  #Precios {
+    
+    background-color: #333745;
+    margin-top: 260px;
+    position: relative;
+    
+
+  }
+
+
+.precios_img {
     width: 100%;
-    height: 1200px;
-}
+    position: absolute;
+    top: -300px;
+    z-index: -1;
+   
+  }
+
+
+
+
+
+ 
+
+  .columns__precios {
+      width: 60%;
+      margin: auto;
+      padding: 30px;
+  }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
         <!--Google fonts-->
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
         <!-- Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -36,7 +36,7 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <a href="#">Iniciar sesión</a>
-                <button class="boton__registro btn btn-outline-success my-2 my-sm-0" type="submit">Registrate</button>
+                <button class="boton__register btn btn-outline-success my-2 my-sm-0" type="submit">Registrate</button>
             </form>
         </div>
     </nav>
@@ -59,7 +59,7 @@
         <h1 class="mb-5">Caracteristicas</h1>
         <div class="caracteristicas mb-5 row">
             <div class="caracteristicas__niveles mb-5 col-xs-12  col-lg-6 col-xl-5">
-                <img src="assets/img/bar-graph.svg" alt="Grafico Web" srcset="">
+                <img class="caracteristicas__niveles_img" src="assets/img/bar-graph.svg" alt="Grafico Web" srcset="">
             </div>
             <div class="caracteristicas__texto mb-5 col-xs-12 col-lg-6 col-xl-7">
                 <h2 class="caracteristicas__texto__h2">Estadísticas de tu progreso</h2>
@@ -72,16 +72,18 @@
     </section>
      
 
-    <!-- Inicio de Cards-->
+    <!-- 
+    Inicio de Cards / PECIOS
+    -->
     
    
 
       <!-- Footer--> <section id="Precios">
         <img  class="precios_img" src="assets/img/bg-price.svg" alt="Price Check" srcset="">
         <h1>Precios</h1>
-        <div class="container-fluid">
-       <div class="row">
-        <div class="col-12 col-sm-6 p-4">
+        
+       <div class="columns row container-fluid">
+        <div class="columns__precios col-xs-12 col-lg-6 col-xl-5">
             <div class="card ">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -93,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 p-4">
+        <div class="columns__precios col-xs-12 col-lg-6 col-xl-5">
             <div class="card ">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -107,7 +109,7 @@
         </div>
 
        </div>
-    </div>
+    
     </section>
 
 
