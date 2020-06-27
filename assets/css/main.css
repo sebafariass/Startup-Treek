@@ -5,34 +5,41 @@
   box-sizing: border-box;
 }
 
-.heroSec__wrap {
-  padding: 0px 20px;
+body {
+  font-family: "Raleway", sans-serif;
 }
 
-.wrap {
-  padding: 0px 20px;
+.heroSec__wrap h1 {
+  font-size: 50px;
+  font-weight: 700;
 }
 
-@media (min-width: 724px) {
+#Caracteristicas h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.caracteristicas__texto__h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
   .heroSec__wrap {
     position: absolute;
     top: 150px;
     left: 100px;
     width: 500px;
   }
-
-  .heroSec__wrap {
-    padding: 0px 50px;
-  }
 }
-@media (max-width: 728px) {
+@media (min-width: 728px) {
   .heroSec__wrap h1 {
     text-align: center;
   }
 }
 @media (min-width: 724px) {
   .caracteristicas {
-    width: 80%;
+    width: 100%;
     padding: 20px;
     margin: auto;
     display: flex;
@@ -9928,6 +9935,46 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.navbar {
+  padding: 20px 25px;
+}
+
+.nav-link {
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.boton__registro {
+  color: #fff;
+  background-color: #2ab7ca;
+  border: #2ab7ca;
+  font-size: 14px;
+  margin: 10px;
+  padding: 7px;
+}
+.boton__registro :hover {
+  color: #77d1dd;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    padding: 20px 50px;
+  }
+}
+@media (min-width: 993px) {
+  .navbar {
+    padding: 20px 150px;
+  }
+}
+.boton__registro {
+  border-radius: inherit;
+}
+
 /* @import 'layout/header'; */
 .row {
   display: grid;
@@ -10189,6 +10236,14 @@ h3 {
   width: 100%;
 }
 
+.heroSec__wrap {
+  padding: 0px 50px;
+}
+
+span {
+  text-align: left;
+}
+
 #Precios {
   background: url(../../img/bg-price.svg) center no-repeat;
   background-size: cover;
@@ -10197,11 +10252,21 @@ h3 {
 
 #Caracteristicas h1 {
   text-align: center;
+  padding: 30px;
 }
 
 .caracteristicas__niveles {
   width: 100%;
   margin: auto;
+}
+
+#precios {
+  background-image: url(../img/bg-price.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 1200px;
 }
 
 /*# sourceMappingURL=main.css.map */

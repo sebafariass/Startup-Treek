@@ -3,24 +3,23 @@
 
 
     
-@media (min-width:724px) { 
+@media (min-width:992px) { 
     .heroSec__wrap{
         position: absolute;
        top: 150px;
         left: 100px;
         width: 500px;
+       
         
       
       
      }
- .heroSec__wrap{
-    padding: 0px 50px;
-    ;
- }
-
  
-    }
-    @media (max-width:728px) {
+ }
+ 
+ 
+    
+    @media (min-width:728px) {
         .heroSec__wrap {
             h1 {
                 text-align: center;
@@ -37,7 +36,7 @@
  
  @media (min-width:724px) {
      .caracteristicas {
-         width: 80%;
+         width: 100%;
          padding: 20px;
          margin: auto;
          display: flex;

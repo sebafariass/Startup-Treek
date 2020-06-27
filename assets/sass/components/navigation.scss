@@ -1,3 +1,39 @@
 
 
+//navbar
+.navbar {
+    padding: 20px 25px;
+}
+.nav-link{
+    color: red;
+    font-weight: 400;
+    font-size: $small;
+}
+
+.boton__registro{
+    color: $white;
+    background-color: $ball-blue;
+    border: $ball-blue;
+    font-size: $small;
+    margin: 10px;
+    padding: 7px;
+   
+
+    :hover{
+        color: $middle-blue;
+    }
+}
+.navbar-toggler {
+    border: 0;
+}
+//inicio media-queries
+@media (max-width: 992px) {
+    .navbar {padding: 20px 50px;
+    }
+}
     
+
+@media (min-width: 993px) {
+    .navbar {padding: 20px 150px;
+    }
+}
