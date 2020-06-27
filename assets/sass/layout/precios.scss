@@ -13,6 +13,7 @@
     text-align: center;
     margin-top: 250px;
     color: $white;
+    
     ;
 }
 
@@ -21,6 +22,8 @@
 .precios_img {
     width: 100%;
     position: absolute;
+    z-index: -1
+  
    
 }
    
@@ -38,7 +41,8 @@
   .columns__precios {
       width: 100%;
       margin: auto;
-      padding: 20px 50px; 
+      padding: 50px 50px; 
+      
     
       
   }

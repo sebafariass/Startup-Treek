@@ -1,3 +1,17 @@
 .boton__registro {
    border-radius: inherit;
 }
+
+
+
+.boton__card{
+   color: $white;
+   background-color: $ball-blue;
+   border: $ball-blue;
+   font-size: $small;
+   margin: 10px;
+   padding: 10px 20px;
+   border-radius: inherit;
+   text-align: center;
+   
+ }

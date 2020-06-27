@@ -9991,6 +9991,17 @@ h3 {
   border-radius: inherit;
 }
 
+.boton__card {
+  color: #fff;
+  background-color: #2ab7ca;
+  border: #2ab7ca;
+  font-size: 14px;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: inherit;
+  text-align: center;
+}
+
 /* @import 'layout/header'; */
 .col-xs-12 {
   grid-column: span 12;
@@ -10275,6 +10286,7 @@ span {
 .precios_img {
   width: 100%;
   position: absolute;
+  z-index: -1;
 }
 
 .columns {
@@ -10284,7 +10296,7 @@ span {
 .columns__precios {
   width: 100%;
   margin: auto;
-  padding: 20px 50px;
+  padding: 50px 50px;
 }
 
 li {
