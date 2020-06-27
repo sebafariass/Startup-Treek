@@ -1,30 +1,50 @@
 
   #Precios {
     
-    background-color: #333745;
-    margin-top: 260px;
-    position: relative;
     
+  
+    position: relative;
+    overflow: hidden;
+   
+   
 
   }
+  #Precios h1 {
+    text-align: center;
+    margin-top: 250px;
+    color: $white;
+    ;
+}
 
+ 
 
 .precios_img {
     width: 100%;
     position: absolute;
-    top: -300px;
-    z-index: -1;
    
-  }
+}
+   
+  
 
 
 
-
-
+//columnas fondo color 
+.columns {
+    background-color: #333745;
+    
+}
  
 
   .columns__precios {
-      width: 60%;
+      width: 100%;
       margin: auto;
-      padding: 30px;
+      padding: 20px 50px; 
+    
+      
+  }
+
+  
+  
+  li {
+      padding: 10px
   }

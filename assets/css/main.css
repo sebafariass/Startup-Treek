@@ -24,12 +24,6 @@ body {
   font-weight: bold;
 }
 
-#Precios h1 {
-  text-align: center;
-  bottom: 200px;
-  color: #fff;
-}
-
 @media (min-width: 992px) {
   .heroSec__wrap {
     position: absolute;
@@ -70,6 +64,17 @@ body {
 @media (max-width: 992px) {
   .caracteristicas__texto__p {
     padding: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .precios_img {
+    margin-top: 120px;
+  }
+}
+@media (min-width: 528px) {
+  .precios_img {
+    width: 100%;
+    margin: auto;
   }
 }
 /*!
@@ -10257,22 +10262,38 @@ span {
 }
 
 #Precios {
-  background-color: #333745;
-  margin-top: 260px;
   position: relative;
+  overflow: hidden;
+}
+
+#Precios h1 {
+  text-align: center;
+  margin-top: 250px;
+  color: #fff;
 }
 
 .precios_img {
   width: 100%;
   position: absolute;
-  top: -300px;
-  z-index: -1;
+}
+
+.columns {
+  background-color: #333745;
 }
 
 .columns__precios {
-  width: 60%;
+  width: 100%;
   margin: auto;
-  padding: 30px;
+  padding: 20px 50px;
+}
+
+li {
+  padding: 10px;
+}
+
+footer {
+  background-color: #221d23;
+  height: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
