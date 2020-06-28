@@ -1,45 +1,21 @@
-//modificando colores etiqueta <a>
+#footer__section{
+    color:$white;
+    background: $raising-black;
+    font-size: $x-small;
+    padding: 40px;
+    
+}
+a{
+    color:$white;
+}
 
-footer {
-    background-color: $raising-black;
-    height: 100px;
+.footer__primera__linea {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
-    color: $nickel;
-    
-   
+      
 }
-
-  
-
-
-.footer__contacto{
-    background-color: $raising-black;
-    height: 100px;
-    display: flex;
-   justify-content: space-between;
-   color: $nickel;
-   width: 50%;
-   align-items: center;
-
-  
-
-    a:link
-{
-text-decoration:none;
-
+#footer__section p {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
-
-}
-
-a {
-    color: $nickel;
-    display: flex;
-    justify-content: left;
-    
-}
-
-
-
