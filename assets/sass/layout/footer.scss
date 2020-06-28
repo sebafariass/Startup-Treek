@@ -1,4 +1,45 @@
+//modificando colores etiqueta <a>
+
 footer {
     background-color: $raising-black;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    color: $nickel;
+    
+   
 }
+
+  
+
+
+.footer__contacto{
+    background-color: $raising-black;
+    height: 100px;
+    display: flex;
+   justify-content: space-between;
+   color: $nickel;
+   width: 50%;
+   align-items: center;
+
+  
+
+    a:link
+{
+text-decoration:none;
+
+}
+
+}
+
+a {
+    color: $nickel;
+    display: flex;
+    justify-content: left;
+    
+}
+
+
+

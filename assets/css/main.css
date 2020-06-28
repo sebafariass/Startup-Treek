@@ -5,6 +5,25 @@
   box-sizing: border-box;
 }
 
+.caracteristicas__niveles_img {
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {
+    opacity: 0.2;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -75,6 +94,37 @@ body {
   .precios_img {
     width: 100%;
     margin: auto;
+  }
+}
+/*
+FOOTER 
+*/
+@media (min-width: 992px) {
+  .footer__contacto {
+    background-color: #221d23;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 50%;
+  }
+
+  .footer__parrafo {
+    position: flex;
+  }
+}
+@media (max-width: 992px) {
+  .footer__contacto {
+    background-color: #221d23;
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    width: 50%;
+  }
+
+  .footer__parrafo {
+    display: flex;
+    align-items: flex-end;
   }
 }
 /*!
@@ -10002,6 +10052,14 @@ h3 {
   text-align: center;
 }
 
+.boton__register:hover {
+  background-color: #77d1dd;
+}
+
+.boton__card:hover {
+  background-color: #77d1dd;
+}
+
 /* @import 'layout/header'; */
 .col-xs-12 {
   grid-column: span 12;
@@ -10306,6 +10364,30 @@ li {
 footer {
   background-color: #221d23;
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  color: #726f73;
+}
+
+.footer__contacto {
+  background-color: #221d23;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: #726f73;
+  width: 50%;
+  align-items: center;
+}
+.footer__contacto a:link {
+  text-decoration: none;
+}
+
+a {
+  color: #726f73;
+  display: flex;
+  justify-content: left;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,6 @@
+
+//boton cards y boton nav.
+
 .boton__registro {
    border-radius: inherit;
 }
@@ -14,4 +17,14 @@
    border-radius: inherit;
    text-align: center;
    
+ }
+
+//boton nav hover
+ .boton__register:hover {
+   background-color: $middle-blue;
+ }
+
+//boton cards hover
+ .boton__card:hover {
+   background-color: $middle-blue;
  }
