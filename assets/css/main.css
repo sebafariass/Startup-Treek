@@ -119,12 +119,10 @@ FOOTER
     height: 100px;
     display: flex;
     padding: 20px;
-    width: 50%;
   }
 
   .footer__parrafo {
     display: flex;
-    align-items: flex-end;
   }
 }
 /*!
@@ -10380,7 +10378,7 @@ footer {
   width: 50%;
   align-items: center;
 }
-.footer__contacto a:link {
+.footer__contacto p:link {
   text-decoration: none;
 }
 
