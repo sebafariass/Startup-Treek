@@ -49,6 +49,15 @@
  
  }
 
+//caracteristicas h1 
+
+ @media (max-width:380px) {
+     #Caracteristicas h1 {
+         font-size: $x-large;
+     }
+ }
+
+
  @media (max-width:724px) {
     .caracteristicas__niveles {
         text-align: center;
@@ -99,54 +108,28 @@
 
 
 
+
+
+
+
 /*
 FOOTER 
 */
 
-@media (min-width:992px) {
-    .footer__contacto {
-        background-color: $raising-black;
-        height: 100px;
-        display: flex;
-       justify-content: space-between;
-       padding: 20px;
-       width: 50%;
-        
 
-        
+
+
+
+@media (min-width:748px){
+    #footer__section {
+            display: flex;
+            justify-content: space-between;
+            padding: 65px;
     }
-    .footer__parrafo {
-     position: flex;
- 
-   
-    
-        
+
+    #footer__section a {
+        margin-right:50px;
     }
 }
 
 
-
-
-
-
-
-@media (max-width:992px) {
-    .footer__contacto {
-        background-color: $raising-black;
-        height: 100px;
-        display: flex;
-        padding: 20px;
-       
-       
-        
-
-        
-    }
-    .footer__parrafo {
-     display: flex;
-     
-   
-    
-        
-    }
-}
